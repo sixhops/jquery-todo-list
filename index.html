@@ -3,9 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>To-Do List</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+
+  <div id="main">
+    <div id="header">
+      <h1>Steve's To-Do List</h1>
+    </div>
+    <div id="listcontent">
+      <ul>
+        <li><span>DEL</span> My list text</li>
+      </ul>
+    </div>
+    <div id="formbox">
+      <h3>Add a new item to the list:</h3>
+      <form>
+        <input type="text" name="itemtoadd">
+        <input type="button" name="addbutton" value="Add">
+    </div>
+  </div>
+
+  <!-- Scripts go here at the bottom -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
