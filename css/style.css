@@ -1,4 +1,57 @@
 html,body{
   padding:0;
   margin:0;
+  font-size: 16px;
+}
+
+#main {
+  width: 40%;
+  margin: 2em auto;
+  padding: 0.4em;
+  background: lightgray;
+  text-align: center;
+}
+
+h1 {
+  margin: 0.5em;
+}
+
+#listcontent {
+  text-align: left;
+}
+
+#formbox {
+  margin: 1em auto;
+  padding: 1em;
+}
+
+ul {
+  list-style: none;
+  /*background-color: blue;*/
+}
+
+li {
+  font-size: 1.2em;
+  background-color: lightblue;
+  position: relative;
+  left: -1em;
+  padding: 0.2em;
+  margin: 0.3em;
+  border: 1px solid darkblue;
+}
+
+.delete {
+  font-size: 0.8em;
+  color: red;
+  vertical-align: top;
+}
+
+[name=addbutton] {
+  font-size: 1.4em;
+}
+
+[name=itemtoadd] {
+  font-size: 1.4em;
+  width: 60%;
+  vertical-align: middle;
 }
